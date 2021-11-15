@@ -375,3 +375,21 @@ main{
    font-weight: 500;
 }
 
+.bitcoin-img{
+   background-image: url(./assets/img/bitcoinbaby2x.jpg);
+   width: 100%;
+   min-width: 320px;
+   height: 390px;
+   background-size: cover;
+   background-position:center;
+   background-repeat: no-repeat;
+}
+
+.bitcoin-img h2{
+   font-size: 2.5rem;
+   color: var(--Just-White);
+   width: bold;
+   line-height: 2.6rem;
+   padding-top: 60px;
+   text-align: center;
+}
