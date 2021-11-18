@@ -429,6 +429,7 @@ main{
 
 .plans-container-card{
    position: relative;
+   scroll-snap-type: center;
    width: 70%;
    min-width: 210px;
    max-width: 300px;
@@ -513,4 +514,65 @@ main{
    height: 20px;
    background-image: url(./assets/icons/orange-right-arrow.svg);
    vertical-align: text-bottom;
+}
+
+.plans-container--slider{
+   width: 65%;
+   align-self: center;
+   align-items: center;
+   margin: 0 auto;
+   display: flex;
+   height: 316px;
+   overflow-x: scroll;
+   overscroll-behavior-x: contain;
+   scroll-snap-type: x proximity;
+   gap: 35px;
+}
+
+.section-footer-socialmedia{
+   width: 100%;
+   flex: auto;
+   background-color: var(--Bitcoin-Orange);
+   height: 150px;
+   display: flex;
+      justify-content: center;
+}
+
+.section-footer-socialmedia div{
+   width: 50%;
+   height: auto;
+   justify-content: center;
+   align-items: center;
+   background-repeat: no-repeat;
+   margin: auto;
+   position: relative;
+
+
+}
+
+.footer-batata{
+   margin: auto;
+   align-self: center;
+   align-items: center;
+   justify-content: center;
+   left: 70px;    
+   position: absolute;
+}
+
+footer .left ul{
+   font-size: 1.3rem;
+   font-weight: 300;
+   line-height: 2.0rem;
+   list-style: none;
+   position: absolute;
+   left: 85px;
+   top: -25px;
+}
+
+
+footer .left a{
+   list-style: none;
+   color: var(--Just-White);
+   text-decoration: none;
+   
 }
