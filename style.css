@@ -434,7 +434,7 @@ main{
    min-width: 210px;
    max-width: 300px;
    height: 250px;
-   margin: 50px auto 0;
+   margin: 50px 5px 0;
    padding: 0 15px;
    background-color: var(--Just-White);
    border-radius: 15px;
@@ -481,9 +481,6 @@ main{
 .plan-card-price span{
    font-size: 1.2rem;
    font-weight: 300;
-   right: 140px;
-   top: -10px;
-   position: absolute;
    font-family: "Inter", sans-serif;
 }
 
@@ -529,48 +526,32 @@ main{
    gap: 35px;
 }
 
-.section-footer-socialmedia{
+footer{
    width: 100%;
    flex: auto;
    background-color: var(--Bitcoin-Orange);
    height: 150px;
+   display: flex;     
+}
+
+footer section{
    display: flex;
-      justify-content: center;
-}
-
-.section-footer-socialmedia div{
    width: 50%;
-   height: auto;
    justify-content: center;
    align-items: center;
-   background-repeat: no-repeat;
-   margin: auto;
-   position: relative;
-
-
 }
 
-.footer-batata{
-   margin: auto;
-   align-self: center;
-   align-items: center;
-   justify-content: center;
-   left: 70px;    
-   position: absolute;
-}
+
 
 footer .left ul{
    font-size: 1.3rem;
    font-weight: 300;
    line-height: 2.0rem;
    list-style: none;
-   position: absolute;
-   left: 85px;
-   top: -25px;
 }
 
 
-footer .left a{
+.left a{
    list-style: none;
    color: var(--Just-White);
    text-decoration: none;

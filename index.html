@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 960px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
 </head>
@@ -29,7 +30,7 @@
                 mas importantes del mundo
             </p>
         </div>
-        <section class="main-tables-container">
+        <div class="main-tables-container">
             <div class="main-currency-table">
                 <p class="currency-table--title">Monedas</p>
                 <div class="currency-table--container">
@@ -85,7 +86,7 @@
                     <b> Actualizado: </b>  17 Noviembre 5:01 PM
                 </p></div>
             </div>
-        </section>
+        </div>
     </Section>
     <Section class="main-product-detail">
         <span class="product-detail--batata-logo"></span>
@@ -93,7 +94,7 @@
             <h2>Creamos un producto sin comparacion.</h2>
             <p>Confiable y diseñando para su uso diario.</p>
         </div>
-    <Section class="product-cards--container">
+    <div class="product-cards--container">
         <article class="pruduct-detail--card">
             <span class="clock"></span>
             <p class="product--card-title">Tiempo real</p>
@@ -102,8 +103,6 @@
                  sobre las tasas que mas determinan el comportamiento.
             </p>
         </article>
-    </Section>
-    <Section class="product-cards--container">
         <article class="pruduct-detail--card">
             <span class="eye"></span>
             <p class="product--card-title">No hay tasas escondidas</p>
@@ -112,8 +111,6 @@
                 muestra el costo real de lo que estas adquiriendo.
             </p>
         </article>
-    </Section>
-    <Section class="product-cards--container">
         <article class="pruduct-detail--card">
             <span class="money"></span>
             <p class="product--card-title">Compara monedas</p>
@@ -122,8 +119,6 @@
                 cada moneda en el mercado actual.
             </p>
         </article>
-    </Section>
-    <Section class="product-cards--container">
         <article class="pruduct-detail--card">
             <span class="check"></span>
             <p class="product--card-title">Informacion Confiable</p>
@@ -132,7 +127,7 @@
                 auditando su contenido mientras se actualizan.
             </p>
         </article>
-    </Section>
+    </div>
     </Section>
     <Section class="bitcoin-img">
         <h2>Conócelo hoy.</h2>
@@ -185,17 +180,16 @@
     </main>    
 </body>
 <footer>
-    <section class="section-footer-socialmedia">
-        <div class="left">
+        <section class="left">
             <ul>
                 <li><a href="#">Linkedin</a></li>
                 <li><a href="#">Crunchbase</a></li>
                 <li><a href="#">Hackernews</a></li>
             </ul>
-        </div>
-        <div class="footer-batata">
+        </section>
+        <section class="right">
             <img class="imagen" src="./assets/img/logo-footer.svg" alt="Logo de Batatabit">
-        </div>
-    </section>
+        </section>
+
 </footer>
 </html>
