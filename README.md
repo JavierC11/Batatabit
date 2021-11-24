@@ -1,5 +1,4 @@
 # Batatabit
-Batatabit_main
 
 <h1><Strong>Mobile First</Strong></h1>
 <p>This is my first project with the methodology of Mobile First, You can change all the px of this project for testing how my site is going to
